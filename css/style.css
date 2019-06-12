@@ -48,16 +48,16 @@ footer {
 }
 
 .projectContainer {
-    padding: 20px;
-    background-color: rgba(255, 255, 255, .1);
+    background-color: rgba(255, 255, 255, .2);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .contactContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-/*    margin-top: 10px;
-*/}
+}
 
 .sectionHeader {
     background-color: rgba(0, 100, 255, .2);
@@ -70,8 +70,8 @@ footer {
 }
 
 .projectImg {
-    height: 150px;
-    width: 270px;
+    height: 200px;
+    width: auto;
     margin: 10px;
     border-radius: 5%;
 }
@@ -81,7 +81,7 @@ footer {
 }
 
 #headshot {
-    height: 250px;
+    height: 300px;
     border-radius: 50%;
     margin-top: 50px;
     margin-bottom: 260px;
@@ -120,12 +120,7 @@ footer {
     background: url(http://www.4usky.com/data/out/25/164199812-dark-wood-wallpapers.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: black;
     background-attachment: fixed;
     background-position: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     position: relative;
-    margin: 0 auto;
 }
