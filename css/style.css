@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background: url(https://duluthcider.com/wp-content/uploads/2018/12/57f5fa649b7683b5ee4999242e873e63.jpg);
     background-repeat: no-repeat;
