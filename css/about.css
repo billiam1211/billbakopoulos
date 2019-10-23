@@ -1,0 +1,35 @@
+.about{
+	max-width: 70em;
+	margin: 0 auto;
+	text-align: center;
+	padding: 2em 0;
+	margin-bottom: 2em;
+}
+
+.about__title{
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: 900;
+	margin-bottom: 1em;
+}
+
+.about__link{
+	text-transform: uppercase;
+	font-size: 0.75em;
+}
+
+.about__content{
+	line-height: 1.5;
+	margin: 1em 0;
+}
+
+.about__media{
+	position: relative;
+	max-height: 8em;
+}
+
+.fancy-line{
+	height: 1px;
+	width: 100%;
+	background-color: black;
+}

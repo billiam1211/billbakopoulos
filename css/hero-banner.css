@@ -1,0 +1,19 @@
+.hero-banner{
+	min-height: 25em;
+	position: relative;
+	padding-bottom: 2em;
+}
+
+.hero-banner__title{
+	text-transform: capitalize;
+	font-weight: 900;	
+	padding: 1em 0;
+}
+
+.hero-banner__media{
+	min-height: 30em;
+	max-width: 50em;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}

@@ -1,0 +1,41 @@
+.header{
+	position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header__layout{
+	margin: 0 auto;
+	padding: 2em 0;
+	min-width: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	display: flex;
+	justify-content: center;
+}
+
+.header__media{
+	 height: 5em;
+	 width: 5em;
+	 border-radius: 50%;
+	 margin: 0 1em;  
+	 position: relative;
+	 top: 15%;
+}
+
+.header__content{
+	padding: 2em 0;
+	display: inline-block;
+}
+
+.header__title{
+	text-transform: uppercase;
+	font-size: 2.5em;
+	font-weight: bolder;
+}
+
+.header__sub-title{
+	text-transform: uppercase;
+	font-size: 1em;
+	color: #353535;
+}
