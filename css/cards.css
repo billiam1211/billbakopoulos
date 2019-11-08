@@ -53,11 +53,18 @@
 	color: white;
 	padding: 1em 2em;
 	margin: 1em 0;
+	transition: all .3s ease-in-out;
 }
 
 .card__button:focus,
 .card__button:hover {
 	background-color: navy;
+	transform: translateY(-2px);
+	box-shadow: 0 .25rem .75rem darkslategray;
+}
+
+.card__button:active{
+	transform: translateY(0);
 }
 
 @media only screen and (max-width: 70em){

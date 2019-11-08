@@ -132,6 +132,14 @@
     transform: translate(-50%, -50%);
 }
 
+.nav__toggle:hover .toggle__fancy-line::before {
+    top: 12px;
+}
+
+.nav__toggle:hover .toggle__fancy-line::after {
+    top: -12px;
+}
+
 .toggle__fancy-line::before{
     content: '';
 
@@ -142,6 +150,7 @@
     position: absolute;
     top: 10px;
     left: 0;
+    transition: all .3s ease-in-out;
 }
 
 .toggle__fancy-line::after{
@@ -153,6 +162,7 @@
     position: absolute;
     top: -10px;
     left: 0;
+    transition: all .3s ease-in-out;
 }
 
 .active-nav{
