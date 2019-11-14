@@ -1,20 +1,24 @@
-/* .hero-banner{
+.hero-banner{
 	margin: 2em auto;
 	padding-bottom: 2em;
 	width: 100%;
 
 }
 
+.hero-banner__title {
+	margin: 2em auto;
+}
+
 .hero-banner__media{
-	min-height: 30em;
-	max-width: 50em;
+	min-height: 20em;
+	max-width: 20em;
 	background-size: cover;
 	background-repeat: no-repeat;
-	overflow: hidden;
+	/* overflow: hidden; */
 
 	position: relative;
 	top: 0;
-	left: 50%;
-	transform: translateX(-50%);
+	left: 0%;
+	transform: translateX(0%);
 
-} */
+}
